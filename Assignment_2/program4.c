@@ -4,7 +4,7 @@ void Display(int iNo, int iFrequency)
 {
     int iCnt = 0;
 
-    if(iFrequency <= 0)
+    if(iFrequency < 0)
     {
         printf("Invalid Frequency entered");
 
