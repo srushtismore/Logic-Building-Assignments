@@ -2,7 +2,7 @@
 
 typedef int bool;
 #define TRUE 1
-#define FALSE -1
+#define FALSE 0
 
 bool Check(int iNo)
 {
